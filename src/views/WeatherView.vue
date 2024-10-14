@@ -54,7 +54,7 @@ export default {
         : null;
     },
     apiKey() {
-      return import.meta.env.VITE_WEATHER_API_KEY; // Make sure the API key is in your .env file
+      return import.meta.env.VITE_WEATHER_API_KEY || 'd738dcfc9fb558dfa24f85a305972c6c'; // Make sure the API key is in your .env file
     },
   },
   mounted() {
